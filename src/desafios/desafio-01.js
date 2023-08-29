@@ -13,5 +13,5 @@ export const app = express();
   GET /produtos
 
   Status 200
-  JSON [{ id: ..., nome: ..., ...}, ...]
+  JSON [{ "id": ..., "nome": ..., ...}, ...]
 */

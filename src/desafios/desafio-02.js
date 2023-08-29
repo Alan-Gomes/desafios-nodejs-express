@@ -13,9 +13,9 @@ export const app = express();
 
   Caso o produto seja encontrado, o retorno deve ser:
   Status 200
-  JSON { id: ..., nome: ..., ...}
+  JSON { "id": ..., "nome": ..., ...}
 
   Caso o produto não seja encontrado, o retorno deve ser:
   Status 404
-  JSON { message: "Produto não encontrado" }
+  JSON { "message": "Produto não encontrado" }
 */

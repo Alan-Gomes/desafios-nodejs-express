@@ -14,9 +14,9 @@ export const app = express();
 
   Caso hajam produtos nessa categoria, o retorno deve ser:
   Status 200
-  JSON { id: ..., nome: ..., ...}
+  JSON { "id": ..., "nome": ..., ...}
 
   Caso não hajam produtos na categoria, deve-se assumir que a categoria não existe e retornar:
   Status 400
-  JSON { message: "Categoria não existe" }
+  JSON { "message": "Categoria não existe" }
 */
