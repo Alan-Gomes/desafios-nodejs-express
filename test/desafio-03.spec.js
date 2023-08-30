@@ -1,5 +1,5 @@
 import request from "supertest";
-import { app } from "../src/desafios/desafio-02.js";
+import { app } from "../src/desafios/desafio-03.js";
 import { produtos } from "../src/produtos.js";
 
 const produtosOriginais = structuredClone(produtos);
